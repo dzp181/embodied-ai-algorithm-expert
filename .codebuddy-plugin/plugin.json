@@ -1,0 +1,86 @@
+{
+  "name": "embodied-ai-algorithm-expert",
+  "version": "1.1.0",
+  "description": "Embodied AI Algorithm Expert Team: perception, planning and RL sub-experts collaboratively deliver end-to-end embodied-AI algorithm designs, training pipelines and Sim-to-Real deployment with GitHub-ready workflows.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/embodied-ai-algorithm-team-lead.md",
+    "./agents/embodied-perception-expert.md",
+    "./agents/embodied-planning-expert.md",
+    "./agents/embodied-learning-expert.md"
+  ],
+
+  "expertType": "team",
+  "agentName": "embodied-ai-algorithm-team-lead",
+  "teamInfo": {
+    "leadAgent": "embodied-ai-algorithm-team-lead",
+    "memberAgents": [
+      "embodied-perception-expert",
+      "embodied-planning-expert",
+      "embodied-learning-expert"
+    ]
+  },
+
+  "displayName": {
+    "en": "Embodied AI Algorithm Expert Team",
+    "zh": "具身智能算法专家团"
+  },
+  "profession": {
+    "en": "Embodied AI Algorithm Expert Team",
+    "zh": "具身智能算法专家团"
+  },
+  "displayDescription": {
+    "en": "A team of perception, planning and RL sub-experts delivering end-to-end embodied-AI algorithm designs, training pipelines and Sim-to-Real deployment.",
+    "zh": "具身智能算法专家团：感知、规划、学习三专家协作，覆盖仿真到 Sim-to-Real 部署全链路。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "帮我设计一个机械臂抓取任务的强化学习训练方案",
+    "en": "Design an RL training pipeline for a robotic arm grasping task"
+  },
+  "plugin": "embodied-ai-algorithm-expert",
+  "tags": [
+    { "en": "Perception & Planning", "zh": "感知与规划" },
+    { "en": "Reinforcement Learning", "zh": "强化学习" },
+    { "en": "Sim-to-Real", "zh": "Sim-to-Real" }
+  ],
+  "quickPrompts": [
+    { "en": "Design an RL training pipeline for a robotic arm grasping task", "zh": "帮我设计一个机械臂抓取任务的强化学习训练方案" },
+    { "en": "Write a point-cloud based 3D object detection perception module", "zh": "写一个基于点云的3D目标检测感知模块" },
+    { "en": "Deploy a trained policy to a real robot with a Sim-to-Real plan", "zh": "把训练好的策略部署到实物机器人，给出Sim-to-Real方案" }
+  ],
+  "members": [
+    {
+      "id": "embodied-ai-algorithm-team-lead",
+      "displayName": { "en": "Embodied AI Algorithm Team Lead", "zh": "具身智能算法专家团主理人" },
+      "profession": { "en": "Chief Embodied AI Architect", "zh": "具身算法总架构师" },
+      "avatar": "avatars/embodied-ai-algorithm-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "embodied-perception-expert",
+      "displayName": { "en": "3D Perception Engineer", "zh": "三维感知算法工程师" },
+      "profession": { "en": "3D Perception Engineer", "zh": "三维感知算法工程师" },
+      "avatar": "avatars/embodied-perception-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "embodied-planning-expert",
+      "displayName": { "en": "Motion Planning & Grasping Engineer", "zh": "运动规划与抓取工程师" },
+      "profession": { "en": "Motion Planning & Grasping Engineer", "zh": "运动规划与抓取工程师" },
+      "avatar": "avatars/embodied-planning-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "embodied-learning-expert",
+      "displayName": { "en": "RL & Deployment Engineer", "zh": "强化学习与部署工程师" },
+      "profession": { "en": "RL & Deployment Engineer", "zh": "强化学习与部署工程师" },
+      "avatar": "avatars/embodied-learning-expert.png",
+      "role": "member"
+    }
+  ]
+}
