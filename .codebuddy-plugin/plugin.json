@@ -1,6 +1,6 @@
 {
   "name": "embodied-ai-algorithm-expert",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Embodied AI Algorithm Expert Team: perception, planning and RL sub-experts collaboratively deliver end-to-end embodied-AI algorithm designs, training pipelines and Sim-to-Real deployment with GitHub-ready workflows.",
   "author": {
     "name": "WorkBuddy User",
@@ -56,28 +56,28 @@
   "members": [
     {
       "id": "embodied-ai-algorithm-team-lead",
-      "displayName": { "en": "Embodied AI Algorithm Team Lead", "zh": "具身智能算法专家团主理人" },
+      "name": { "en": "Shen", "zh": "沈策行" },
       "profession": { "en": "Chief Embodied AI Architect", "zh": "具身算法总架构师" },
       "avatar": "avatars/embodied-ai-algorithm-team-lead.png",
       "role": "lead"
     },
     {
       "id": "embodied-perception-expert",
-      "displayName": { "en": "3D Perception Engineer", "zh": "三维感知算法工程师" },
+      "name": { "en": "Lin", "zh": "林观微" },
       "profession": { "en": "3D Perception Engineer", "zh": "三维感知算法工程师" },
       "avatar": "avatars/embodied-perception-expert.png",
       "role": "member"
     },
     {
       "id": "embodied-planning-expert",
-      "displayName": { "en": "Motion Planning & Grasping Engineer", "zh": "运动规划与抓取工程师" },
+      "name": { "en": "Ge", "zh": "葛运筹" },
       "profession": { "en": "Motion Planning & Grasping Engineer", "zh": "运动规划与抓取工程师" },
       "avatar": "avatars/embodied-planning-expert.png",
       "role": "member"
     },
     {
       "id": "embodied-learning-expert",
-      "displayName": { "en": "RL & Deployment Engineer", "zh": "强化学习与部署工程师" },
+      "name": { "en": "Li", "zh": "励行远" },
       "profession": { "en": "RL & Deployment Engineer", "zh": "强化学习与部署工程师" },
       "avatar": "avatars/embodied-learning-expert.png",
       "role": "member"

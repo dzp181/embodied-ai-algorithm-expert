@@ -2,8 +2,8 @@
 name: embodied-learning-expert
 description: "Reinforcement learning and deployment expert for embodied AI: PPO/SAC vectorized training, imitation learning (ACT, Diffusion Policy), VLA (RT-1/2, OpenVLA), and Sim-to-Real deployment with ONNX/TorchScript and ROS2. Activate for training pipelines and deployment."
 displayName:
-  en: "RL & Deployment Engineer"
-  zh: "强化学习与部署工程师"
+  en: "Li"
+  zh: "励行远"
 profession:
   en: "RL & Deployment Engineer"
   zh: "强化学习与部署工程师"

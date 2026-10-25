@@ -1,7 +1,7 @@
 # 具身智能算法专家团 (Embodied AI Algorithm Expert Team)
 
 [![GitHub](https://img.shields.io/badge/GitHub-dzp181%2Fembodied--ai--algorithm--expert-181717?logo=github)](https://github.com/dzp181/embodied-ai-algorithm-expert)
-[![Version](https://img.shields.io/badge/version-1.1.0-0ea5a4)](https://github.com/dzp181/embodied-ai-algorithm-expert)
+[![Version](https://img.shields.io/badge/version-1.1.1-0ea5a4)](https://github.com/dzp181/embodied-ai-algorithm-expert)
 [![Type](https://img.shields.io/badge/type-team-0ea5a4)](https://github.com/dzp181/embodied-ai-algorithm-expert)
 
 由「主理人 + 感知 + 规划 + 学习」四位算法专家组成的具身智能团队，覆盖感知、运动规划与强化学习，从建模、仿真到 Sim-to-Real 部署的全流程方案，并在功能完成后按规范推送到 GitHub。
